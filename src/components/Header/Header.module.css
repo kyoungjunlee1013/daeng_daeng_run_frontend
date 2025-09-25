@@ -1,0 +1,60 @@
+/*src/components/Header/Header.module.css*/
+@Media (max-width: 768px){
+    .headerContainer {
+        padding: 1rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    .navLink {
+        display: none;
+    }
+    .loginButton {
+        display: none;
+    }
+}
+
+.headerContainer {
+   position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background-color: white;
+  border: 2px solid black;
+  padding: 1.5rem 2rem; 
+  font-size: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;    
+    font-weight: 800;
+    color: rgb(74, 106, 65);
+    text-decoration: none;      
+}
+
+.navMenu{
+    display: flex;
+    gap: 2rem;
+}
+
+.navButton {          
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    
+}
+.navLink {
+    text-decoration: none;
+    color: black;    
+}
+
+.loginButton {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
